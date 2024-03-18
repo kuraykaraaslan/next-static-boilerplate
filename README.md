@@ -1,40 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Static Boilerplate
+
+Next Static Boilerplate is a starter template for creating static websites with Next.js, a popular React framework. This boilerplate is designed to provide a solid foundation for building fast, efficient, and SEO-friendly static websites using modern web development tools and best practices.
+
+## Features
+
+- **Next.js**: Utilizes the power of Next.js for server-side rendering, routing, and code splitting.
+- **Static Site Generation (SSG)**: Generates static HTML files at build time for improved performance and SEO.
+- **React**: Built with React, a JavaScript library for building user interfaces.
+- **Tailwind CSS**: Integrated with Tailwind CSS for rapid UI development with utility-first CSS.
+- **DaisyUI**: Includes DaisyUI, a component library for Tailwind CSS, for building beautiful and responsive designs.
+- **Prettier & ESLint**: Includes Prettier and ESLint configurations for code formatting and linting.
+- **PostCSS**: Utilizes PostCSS for processing CSS with JavaScript.
+- **Husky & lint-staged**: Pre-configured with Husky and lint-staged for running pre-commit checks.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kuraykaraaslan/next-static-boilerplate.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd next-static-boilerplate
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Development
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at `http://localhost:3000` by default.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To generate a production build of your website, run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This will generate optimized static files in the `out` directory.
 
-## Learn More
+### Deployment
 
-To learn more about Next.js, take a look at the following resources:
+You can deploy the contents of the `out` directory to your preferred hosting platform. Since Next.js generates static files, you can use any static site hosting service, such as Vercel, Netlify, GitHub Pages, or AWS S3.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgments
+
+This boilerplate is inspired by various Next.js and React starter templates available in the community. Special thanks to the contributors of Next.js, React, Tailwind CSS, and other open-source projects that made this boilerplate possible.
+
+---
+
+Happy coding! 🚀
